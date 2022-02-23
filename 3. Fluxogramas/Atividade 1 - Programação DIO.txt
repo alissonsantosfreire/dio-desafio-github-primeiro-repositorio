@@ -1,0 +1,23 @@
+INÍCIO DO JOGO
+Pinguim filhote vermelho entra
+Pinguim adulto vermellho entra
+ATRAVESSA
+Pinguim adulto vermelho sai
+ATRAVESSA 
+Pinguim filhote verde entra
+ATRAVESSA
+Pinguim filhote vermelho sai
+ATRAVESSA
+Pinguim adulto verde entra
+ATRAVESSA
+Pinguim adulto verde sai
+ATRAVESSA
+Pinguim filhote azul entra
+ATRAVESSA
+Pinguim filhote verde sai 
+ATRAVESSA
+Pinguim adulto azul entra
+ATRAVESSA
+Pinguim adulto azul sai
+Pinguim filhote azul sai
+FIM DO JOGO
