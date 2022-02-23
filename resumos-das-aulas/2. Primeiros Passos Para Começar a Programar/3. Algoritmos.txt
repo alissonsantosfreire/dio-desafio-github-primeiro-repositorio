@@ -1,0 +1,47 @@
+Algoritmos
+	O que é um algoritmo?
+		Processo de resolução de problemas "step by step" utilizando instruções
+			Instrução significa
+				O que precisa ser feito
+				Ordem de execução
+		Sequência de passos com objetivo definido
+		Execução de tarefas específicas
+		Conjunto de operações que resultam em uma sucessão finita de ações
+		Exemplos do dia a dia:
+			Preparar um sanduíche
+			Trocar uma lâmpada
+			Fazer uma receita de bolo
+			Trajeto ao trabalho
+	Desenvolvimento de um programa
+		Análise
+			Estudo e definição dos dados de entrada e saída
+		Algoritmo
+			Escrever o problema por meio de ferramentas narrativas, fluxograma, ou pseudocódigo
+		Codificação
+			O algoritmo é codificado de acordo com a linguagem de programação escolhida
+	Como construir um algoritmo?
+		Compreensão do problema
+			Identificar pontos mais importantes
+		Definição dos dados de entrada
+			Dados fornecidos e cenário
+		Definir processamento
+			Cálculos e restrições
+		Definir dados de saída
+			Dados resultantes do processamento
+		Utilizar um método de construção
+			Construção e refinamento do algoritmo
+			Utilizar narrativa, fluxograma e pseudocódigo
+				Narrativa
+					Utilização da linguagem natural
+					Sem conceitos novos
+					Diversas interpretações possíveis
+				Fluxograma
+					Utilização de símbolos pré-definidos
+					Simples entendimento
+					Necessita de conhecimento prévio da estrutura e símbolos
+				Pseudocódigo
+					Regras definidas
+					Passos a serem seguidos
+					Mais próximo de uma linguagem de programação
+		Teste e diagnóstico
+			Construção e refinamento do algoritmo

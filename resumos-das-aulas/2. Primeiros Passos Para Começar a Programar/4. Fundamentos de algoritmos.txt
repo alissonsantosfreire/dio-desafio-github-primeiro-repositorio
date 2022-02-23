@@ -1,0 +1,168 @@
+Fundamentos de algoritmos
+	Variáveis
+		Incerto
+		Mutável
+		Possui variações
+		Inconstante
+		Instável
+		Pode assumir qualquer um dos valores de um determinado conjunto de valores
+			Exemplo:
+				a - b = d
+				a + b = d
+			Previamente identificadas
+		Regras
+			Vedado
+				Utilização de palavras reservadas
+				Primeira caractere ser um valor numérico
+				Espaços em branco
+				Caracteres especiais
+			Permitido
+				Atribuição de um ou mais caracteres
+		Papéis de uma variável
+			Ação
+				Modificação de estado
+			Controle
+				Vigiada
+	Dados
+		São tratados e processados
+			Entrada, processamento e saída
+		Tipos
+			Numéricos
+				Inteiros
+					0,1,5,50,60,800...-58,-50-49
+				Reais
+					5.95,9.54,-8.8...
+			Caracteres
+				Números, letras e símbolos
+			Lógicos
+				Booleano
+					1
+						Verdadeiro
+					0
+						Falso
+				Português estruturado
+					V ou S
+						Verdadeiro
+					F ou N
+						Falso
+	Instruções
+		Definição formal
+			São palavras-chave de uma determinada programação, que tem por finalidade comandar um computador que irá processar os dados
+		Forma de calcular variáveis e/ou constantes
+		Utiliza-se de operadores
+			Binário
+			Unário
+	Estrutura condicional
+		Se a condição for satisfeita, temos a operação
+		Se não temos a condição satisfeita, temos a exceção
+		É possível verificar mais de uma condição
+		Símbolos utilizados
+			=
+				Igual a
+			<>
+				Diferente de
+			>
+				Maior que
+			<
+				Menor que
+			>=
+				Maior ou igual a
+			<=
+				Menor ou igual a
+		Tipos de estruturas
+			Condicional simples
+				Nessa estrutura, há apenas a operação se a condição for verdadeira, sem a exceção
+			Condicional composta
+				Nessa estrutura, há a operação e a exceção
+			Condicional encadeado
+				Temos uma sucessão de condições diferentes em uma mesma estrutura
+	Operadores lógicos
+		Tipo de operadores lógicos
+			AND
+				Todas as condições devem ser satisfeitas
+			OR
+				Apenas uma das condições deve ser verdadeira
+			NOT
+				Operador de negação
+				Inversão do resultado lógico
+		Quando utilizar?
+			Verificação de V ou F
+			Substituição
+			Encadeamento de condições
+	Estruturas de repetição
+		Trecho de um programa que possui:
+			Controle de fluxo
+			Laços
+			Loop
+			Malhas de repetição
+			Condições de parada
+				Número de repetições pré-fixada
+				Condição a ser satisfeita
+		Tipos de estruturas de repetição
+			Enquanto
+				Faça
+			Repita
+				Até
+			Para
+				De
+					Até
+						Faça
+		É possível unir diferentes estruturas de repetição
+	Vetores e matrizes
+		Definição formal
+			Matriz é uma tabela organizada em linhas e colunas no formato m x n, onde m representa o número de linhas (horizontal) e n o número de colunas (vertical)
+		Coleção de variáveis
+		Contiguas em memória
+		Índices
+	O que são funções
+		Similar ao conceito de função matemática
+			f: A -> B
+		Definição formal
+			As funções, ou sub-rotinas, são blocos de instruções que realizam tarefas específicas
+			São blocos de instruções (código) identificados por nomes e parâmetros
+				Definição
+				Nome
+				Invocação
+				Variável local
+		Código mais claro e consiso
+		Reutilização de instruções
+		Modularização do programa
+	Instruções de entrada/saída
+		Instruções de entrada
+			Definição formal
+				Consiste na inserção e recebimento de dados do mundo real por meio de ação de alguma interface, seja teclado, mouse, arquivos, entre outros
+			Instruções de entrada podem ser inseridas por:
+				Teclado
+				Mouse
+				Touchscreen
+				Inserção de dados
+				Metadados
+		Instruções de saída
+			Definição formal
+				Consiste na impressão dos dados do mundo abstrato, digital por meio de ação de alguma interface.
+			Os formatos podem variar desde simples arquivos binário até complexas querys de banco de dados
+			Instruções de saída podem ser exibidos por:
+				Arquivos
+					De acesso ao usuário
+					Log do sistema
+				Prompt de comando
+				Banco de dados
+				Tela
+					Computador
+					Celular
+						Telas touchscreen são dispostivos de entrada e de saída
+							São híbridos
+			Tipos de saídas
+				Existem dois tipos de saídas dentro de um programa:
+					Saída programa
+						Condicional
+							Aguarda o dispositivo
+						Incondicional
+							Envia o resultado independente do resultado do dispositivo
+					Saída por interrupção
+						Definida pelos periféricos
+				Casos
+					Bem sucedida
+					Erro de sintaxe ou outro
+					Erros de programação
+					Problemas com a interface

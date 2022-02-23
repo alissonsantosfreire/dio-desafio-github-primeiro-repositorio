@@ -1,4 +1,4 @@
-História da Programação
+História da Computação
 	Computação
 		Objetivos
 			Minimizar esforços

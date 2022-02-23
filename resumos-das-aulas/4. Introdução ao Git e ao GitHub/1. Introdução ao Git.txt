@@ -1,0 +1,187 @@
+Introdução ao Git e ao GitHub
+	Definição
+		É uma plataforma de desenvolvedores que permite acesso a históricos de diferentes versões de um código
+		Git e GitHub não são a mesma coisa, mas são complementares
+		Embora sejam muito utilizadas, não são as únicas opções do mercado
+		O Git é um sistema de arquivos de conteúdo endereçável
+		O coração do Git é um simples armazenamento chave-valor
+			Você pode inserir qualquer tipo de conteúdo nele, e ele lhe dará de volta uma chave que você pode usar para recuperar o conteúdo de volta em qualquer momento.
+	Navegação básica
+		GUI x CLI
+			Graphic User Interface é praticamente todo e qualquer programa e sistema operacional responsivo com uma interface gráfica, que não é o caso do Git
+			Command Line Interface é uma interface de comandos, utilizada pelo Git
+	Comandos principais dos terminais
+		Windows
+			cd
+				Muda de diretório e permite navegar entre pastas
+					Exemplos:
+						cd /
+							Base do diretório
+						cd [nome da pasta]
+							Navega entre pastas listadas pelo comando dir
+						cd ..
+							Retrocede um nível na navegação
+			dir
+				Lista de diretórios contidos na pasta que está situado
+			mkdir
+				Make Directory
+				Cria uma pasta
+				Exemplo:
+					mkdir [nome da pasta]
+					mkdir workspace
+						Cria a pasta workspace
+			echo
+				Semelhante ao comando "escrever" em pseudocódigo
+				Exibe um texto no terminal
+					Exemplo:
+						echo hello
+							Exibe o texto "hello"
+				Ao utilizar o sinal ">" é possível repassar a informação anterior a um arquivo de texto, por exemplo
+					Exemplo:
+						echo hello > hello.txt
+			del
+				Deleta arquivos
+					Exemplo:
+						del hello.txt
+			rmdir
+				Remove pastas
+			clr
+				Clear Screen
+				Limpa todo o conteúdo exibido no histórico do terminal
+			mv
+				Move arquivos
+				Exemplo:
+					mv strogonoff.md ./receitas
+						./ significa pasta atual
+		Linux
+			cd
+				Muda de diretório e permite navegar entre pastas
+				Exemplos:
+					cd /
+						Base do diretório
+						cd [nome da pasta]
+							Navega entre pastas listadas pelo comando dir
+						cd ..
+							Retrocede um nível na navegação
+						Atalho:
+							cd + TAB
+								Complementa o nome da pasta que está sendo digitada
+			ls
+				Lista de diretórios contidos na pasta que está situado
+			mkdir
+				Make Directory
+				Cria uma pasta
+				Exemplo:
+					mkdir [nome da pasta]
+					mkdir workspace
+						Cria a pasta workspace
+			echo
+				Semelhante ao comando "escrever" em pseudocódigo
+				Exibe um texto no terminal
+					Exemplo:
+						echo hello
+							Exibe o texto "hello"
+				Ao utilizar o sinal ">" é possível repassar a informação anterior a um arquivo de texto, por exemplo
+					Exemplo:
+						echo hello > hello.txt
+			rm -rf
+				Remove pastas
+					Exemplo:
+						Ramo de Tópico
+			clear
+				Limpa todo o conteúdo exibido no histórico do terminal
+				Atalho:
+					CTRL + L
+	Como o Git funciona por baixo dos panos
+		SHA
+			A sigla SHA signifca Secure Hash Algorithm
+				Algoritmo de Hash Seguro
+			É um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA)
+			A encriptação SHA gera conjunto de caracteres identificador de 40 dígitos
+				Isso ajuda na identificação de diferentes versões de um mesmo arquivo
+			Exemplo:
+				1 echo "ola mundo" | openssl sha1
+
+2 > (stdin)= f0fc856e669b950175fb27cd7dad61facbe58e7b
+		Objetos importantes do Git
+			Blob
+				Armazena o SHA de arquivos
+					Exemplo:
+						
+				Encapsula comportamentos de diretórios
+				Não armazena nomes de arquivos, somente o conteúdo
+			Tree
+				Resolve o problema de armazenar o nome de arquivo e também permite armazenar de forma conjunta um grupo de arquivos.
+				O Tree trabalha como um mapa: ele relaciona o nome do arquivo ao hash gerado a partir de seu conteúdo
+				
+				Atrás de um hash pode existir um simples arquivo, armazenado como blob, ou outro tree object, como nessa representação “gitiana” da estrutura de arquivos completa:
+				
+				
+			Commit
+				Os commits são as unidades estruturais de um cronograma de projeto Git
+				Podem ser considerados instantâneos ou marcos ao longo do cronograma de um projeto Git
+				São criados com o comando Git "commit" para capturar o estado de um projeto naquele momento
+				Site: O que são Git Commits?
+				Site: Git - A Anatomia de um Commit
+				Aponta para tree, parente, autor, mensagem e timestamp de um arquivo
+					O SHA1 desse commit é o hash de toda a essa informação
+				
+	Tutoriais
+		Manual oficial para iniciantes do Git
+	Chave SSH
+		É uma de estabelecer uma conexão segura e encriptada entre duas máquinas
+		É um novo processo de login do GitHub
+	Primeiros comandos do Git
+		git init
+			Dá início ao gerenciamento Git em uma pasta específica
+			Cria uma pasta oculta chamada ".git" e que pode ser exibida com um comando específico:
+				ls -a
+					"-a" é uma flag que exibe arquivos ou pastas ocultas, junto ao comando ls
+			Inicializa um repositório
+		git add
+			Adicionamos um arquivo ao repositório commit
+				Exemplo:
+					git add Strogonoff.md
+			Ao adicionar a flag * (asterisco) ou . (ponto), adicionamos tudo que está presente no diretório atual do Git Bash
+		git commit
+			Ao adicionar a flag "-m", adicionamos aos metadados do commit uma mensagem para saber a alteração específica de um commit
+				Exemplo:
+					git commit -m "commit inicial"
+				Serve para salvarmos diferentes alterações dentro de um diretório de trabalho
+		git rm
+			Remove arquivos de uma pasta
+		git config
+			Configura atributos e configurações de um repositório
+			Adicionando a flag "--global" podemos adicionar o nome de usuário e e-mail de um repositório local para repositório nuvem
+				Exemplo:
+					git config --global user.name "insira aqui o nome de usuário"
+					git config --global user.email "exemplo@exemplo.com
+				Também é possível remover esses atributos, usando a flag "--unset"
+					Exemplo:
+						git config --global --unset user.name "insira o nome de usuário a ser removido"
+						git config --global --unset user.email "insira o email a ser removido"
+		git push
+			Insere arquivos do repositório local para repositório em nuvem no GitHub
+			Exemplo:
+				git pull "nome do repositório local" master
+		git pull
+			Transfere arquivos do repositório em nuvem do GitHub para repositório local
+			Exemplo:
+				git pull "nome do repositório local" master
+	Trabalhando com o Git
+		Em algums repositórios, é comum a utilização do arquivo Markdown ao invés do TXT
+			É uma forma humanizada de construir um arquivo HTML, sem necessidade de saber como escrever em HTML
+				HTML é o esqueleto de qualquer página web
+	Modificações nos arquivos no Git
+		
+		Antes de adicionar um arquivo ao Git, esse arquivo é denominado "Untracked"
+		Ao adicionarmos um arquivo em um repositório no Git, o arquivo se torna "Staged", ou seja, está por trás de tudo, aguardando a hora de "entrar no palco"
+		Ao ser adicionado ao repositório, esse arquivo faz parte do Commit do repositório
+			Sem modificações, o arquivo permanece como "Unmodified"
+		Ao modificá-lo, o arquivo torna-se "Modified"
+			Durante essa modificação, o arquivo novo está como "Staged" até o fim dessa modificação
+		Se removermos um arquivo "Unmodified", ele torna-se "Untracked" automaticamente
+	Repositórios e ambientes
+		
+		
+		

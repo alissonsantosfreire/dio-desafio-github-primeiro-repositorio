@@ -1,0 +1,65 @@
+Introdução a Lógica da Programação
+	O que significa um problema?
+		Definição formal:
+			Problema é uma questão que foge a uma determinada regra, ou melhor é um desvio de percurso o qual impede de atingir um objetivo com eficiência e eficácia.
+		Possui numerosas soluções
+		Proposta duvidosa
+		Objeto de discussão
+		Questão
+	O que é lógica?
+		Definição formal:
+			Trata das formas do pensamento (dedução, indução, hipótese, inferência etc.) em geral e das operações intelectuais que visam à determinação do que é verdadeiro ou não
+		Ordenação que segue convenções
+		Organização coesa
+		Forma como desencadeiam acontecimentos
+		Forma de raciocínio
+		Definição mais próxima da Programação:
+			Organização e planejamento das instruções, assertivas em um algoritmo, a fim de viabilizar a implantação de um programa
+	Técnicas
+		Linear
+			Modelo tradicional
+			Não tem vínculo com
+				Estrutura hierárquica
+				Programação de computadores
+			Execução sequenciada
+			Recursos limitados
+			Única dimensão
+			Exemplo:
+				Acordar
+					Fazer café
+						Tomar café
+		Estruturada
+			Organização
+			Disposição e ordem dos elementos essenciais que compõe um corpo
+				Concreto ou abstrato
+			Objetivo
+				Escrita
+					Programas
+				Entendimento
+				Validação
+				Manutenção
+					Facilitar a manipulação de um programa
+			Exemplo:
+				Acordar
+					Se estiver frio
+						Fazer café
+							Café da manhã
+					Se estiver quente
+						Fazer suco
+							Café da manhã
+		Modular
+			Partes independentes
+			Controlada por um conjunto de regras
+			Exemplo:
+			Modelo padrão:
+				Dados de entrada
+					Processo de transformação
+						Dados de saída
+			Metas
+				Simplificação
+				Decompor o problema
+				Verificação do módulo
+			Exemplo
+				Módulo preparar para acordar
+				Módulo preparar bebida
+				Módulo café da manhã

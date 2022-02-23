@@ -1,0 +1,213 @@
+Linguagem de Programação
+	Evolução da programação
+		1949
+			Surgimento do Assembly
+				Primeira linguagem
+				Linguagem de baixo nível
+				Também conhecido como:
+					Linguagem de montagem
+					Linguagem de máquina
+		Década de 50
+			COBOL
+			Fortran
+			LISP
+		Década de 60 e 70
+			C
+			Prolog
+			ML
+		Década de 90
+			Linguagens de alto nível
+				Java
+				Python
+				Ruby
+				C#
+				Javascript
+		2000
+			Linguagens multiparadigmas
+				Go
+				Rust
+				Dart
+				TypeScript
+	Problemas computacionais
+		Objeto de discussão que possui instrções passo a passo que são mais facilmente resolvíveis em ambiente computacional
+		Problemas de decisão
+			Caracter lógico
+				Ideia de pertencimento
+				Sim ou Não
+			Exemplo:
+				Dado um número n inteiro positivo, determine se n é primo
+		Problemas de busca
+			Relacionamento binário
+			Objetivo
+				Semelhante ao nome
+				Exemplo
+					X está em A?
+			Recorrente em teoria de grafos
+		Problemas de otimização
+			Objetivo
+				Maximar uma função
+				Minimizar uma função
+			Pode ser aplicada em diversos ramos
+	O que é uma linguagem de programação?
+		Método padronizado composto por um conjunto de regras sintáticas e semânticas de implementação de um código fonte
+			Código fonte é um conjunto de palavras com regras
+	Código fonte
+		Tipos
+			Tradução
+				1. Geração do programa objeto
+				2. Execução do programa objeto
+				Vantagens
+					Execução mais rápida
+				Exemplos de linguagem de tradução:
+					C++
+					Java
+			Interpretação
+				Programa fonte executado diretamente
+				Vantagens
+					Programas menores
+					Maior flexibilidade
+				Desvantagens
+					Mais lenta
+				Exemplos de linguagem de interpretação:
+					Python
+					Javascript
+					Ruby
+		Programa fonte
+			Executável de linguagem de baixo nível
+		Programa objeto
+			Executável de linguagem de alto nível
+	Características de um programa
+		Legibilidade
+			Facilidade de leitura
+			Compreensão
+			Ortogonalidade
+				Coerência nas instruções
+			Definição adequada das estruturas
+		Redigibilidade
+			Ortogonalidade
+			Simplicidade da escrita
+			Suporte à abstração
+			Reuso do código
+			Expressividade
+				Utilizar determinados comandos
+					Exemplo
+						operador ++
+						uso do for
+		Confiabilidade
+			Faz o que foi programado para fazer
+			Possui:
+				Verificação de tipos
+				Trata exceções
+				Uso de ponteiros
+				Compatibilidade entre compiladores
+		Custo
+			Análise de impacto
+			Possui:
+				Treinamento
+				Codificação
+				Compilação
+				Execução
+				Infra-estrutura
+		Outras características
+			Atualizações
+			Uso para IA
+			Disponibilidade de ferramentas
+			Comunidade ativa
+			Adoção pelo mercado
+	Análises de códigos
+		Análise léxica
+			Particionar
+				Código decomposto e particionado em elementos, denominados tokens
+			Classificar
+				Os elementos particionados são classificados em:
+					Identificadores
+					Palavras reservadas
+					Números
+					Strings
+			Eliminar
+				Na etapa posterior a classificação, é elmininado tudo aquilo que não interessa na execução do programa:
+					Caracteres de espaço em branco
+					Comentários
+		Análise sintática
+			O que signifca sintaxe?
+				Componente do sistema linguístico que interliga os constituintes da sentença, atribuindo-lhe uma estrutura
+				Nessa etapa, é verificado a corretude do programa
+		Análise semântica
+			O que signifca semântica?
+				É o estudo do significado
+				Incide sobre a relação entre significantes, como:
+					Palavras
+					Frases
+					Sinais
+					Símbolos
+			O que caracteriza erro de semântica?
+				Não faz o que é esperado
+	O que é um paradigma?
+		Definição formal:
+			Forma de resolução de problemas com diretrizes e limitações específicas de cada paradigma, utilizando linguaem de programação
+		Classificação
+			Orientação à objeto
+				Conceitos
+					Abstração que trata o programa com base em classe e objetos
+					Baseado na utilização de objetos e suas interações
+					Análogo ao mundo real
+					Orientação a Objeto
+						Modelo
+							Classificação
+						Atributos
+							O que tenho
+						Métodos
+							Sou capaz de fazer
+						Estados
+							Como faço
+				Exemplos:
+					Java
+					Lua
+					C++
+					Python
+					JavaScript
+				Pilares de Orientação a Objeto
+					Herança
+					Encapsulamento
+					Polimorfismo
+					Abstração
+				Classes
+					Aglutinação de objetos semelhantes
+					Características
+						Atributos
+						Métodos
+			Procedural
+				Chamadas sucessivas e procedimentos separados
+				Exemplos:
+					Fortran
+					Lua
+			Funcional
+				Instruções são baseadas em funções
+				Exemplos:
+					Python
+					Lua
+					Java
+					JavaScript
+			Estruturado
+				Conceitos
+					Sequência
+					Decisão
+						Teste lógico
+					Interação
+						Funções, laços, condições
+					Estrutura de blocos alinhados
+				Utilização
+					Problemas simples e diretos
+					Aprender programação
+				Exemplos:
+					JavaScript
+					Java
+					C++
+					C
+			Computação distribuída
+				Funções executadas de maneira independente
+				Exemplos:
+					Ada
+			Lógico
+				Exemplos:
+					Java
