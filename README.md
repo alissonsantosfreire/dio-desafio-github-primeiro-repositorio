@@ -1,5 +1,5 @@
 # Repositório do Desafio de Projeto sobre Git/GitHub da DIO
-⚠️ **Repositório experimental, criado para desafio de projeto!**⚠️
+⚠️ ### Repositório experimental, criado para desafio de projeto! ###⚠️
 
 Desafio de criação do primeiro repositório no GitHub, do módulo "Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso" da Digital Innovation One (DIO) do Bootcampo Take Blip Web Developer.
 
