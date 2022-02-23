@@ -3,6 +3,18 @@
 
 *Desafio de criação do primeiro repositório no GitHub, do módulo "Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso" da Digital Innovation One (DIO) do Bootcampo Take Blip Web Developer.* 🌌
 
+
+
+## Índice
+
+1. [Resumo das aulas](https://github.com/alissonsantosfreire/dio-desafio-github-primeiro-repositorio/tree/main/1.%20Resumos%20das%20aulas)
+
+2. [Mapas mentais](https://github.com/alissonsantosfreire/dio-desafio-github-primeiro-repositorio/tree/main/2.%20Mapas%20mentais)
+
+3. [Fluxogramas](https://github.com/alissonsantosfreire/dio-desafio-github-primeiro-repositorio/tree/main/3.%20Fluxogramas)
+
+4. [Pseudocódigos (Portugol)](https://github.com/alissonsantosfreire/dio-desafio-github-primeiro-repositorio/tree/main/4.%20Pseudoc%C3%B3digos%20(Portugol))
+
 ## Links Úteis :link:
 1. [Sintaxe Básica Markdown](https://www.markdownguide.org/getting-started/)
 
