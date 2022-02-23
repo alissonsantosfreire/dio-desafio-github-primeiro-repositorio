@@ -1,0 +1,103 @@
+História da Programação
+	Computação
+		Objetivos
+			Minimizar esforços
+			Otimizar recursos
+		História de alguns dispositivos
+			Ábaco (3 mil a.C.)
+				Um dos primeiros dispositivos de cálculo
+			Quadrante (séc. XVI)
+				Criado por Ptolomeu
+				Dispositivo de cálculos astronômicos
+			Computador (séc. XX)
+				Surgimento dos primeiros computadores
+				Avanço exponencial
+	Fundamento
+		Hardware
+			Componentes físicos
+		Software
+			Componentes virtuais/digitais
+	Início da revolução computacional
+		Alan Turing
+			Considerado o pai da computação
+			Tentou caracterizar operações computáveis
+			Máquina baseada em sistema formal
+			Formulou o conceito de algoritmo
+				Algoritmo
+					Base matemática
+					Noção matemática
+			Trouxe a ideia de inteligência artificial
+			Interessou-se pela área de programação
+				Percebeu que as operações matemáticas com codificações poderiam formar uma linguagem
+					Criação do código binário
+		Máquina de Turing
+			Símbolos processados por computador
+			Decifrava códigos de guerra
+			Os símbolos processados realizavam operações, que modificavam o estado da máquina
+		Projeto Delilab
+			Projeto americano, com participação de Alan Turing
+			Criação de um codificador de voz
+		Claude Shannon
+			Percebeu a vasta aplicabilidade da álgebra booleana
+			Criou a base (conceitos e fundamentos) para a criação de computadores digitais
+			Em 1948, fundamenta a Teoria da Informação, criando dois conceitos importantes para computação:
+				Compressão de dados
+				Criptografia
+		Von Newmann
+			Participou de projetos relacionados a:
+				Construção de hardware
+				Programação
+				Arquitetura
+				Computação científica
+				Teoria da computação
+			Arquitetura de Von Newmann
+				Criou conceitos de espaço de memória:
+					Dados
+					Programa
+	Máquinas computacionais
+		A primeira datada na história foi criada pelo francês Blaise Pascal
+			Calculava impostos
+		A segunda máquina na história foi o Arithmometer,
+criada por Charles Xavier Thomas, em 1820
+			Realizava operações matemáticas básicas
+	Primeiros computadores
+		Z3, por Konrad Zuse
+			A máquina necessitava de 1000 válvulas
+			Realiza de 3 a 4 operações por segundo
+		Harvard Mark 1
+			Modificaçõa de instruções dinâmicas
+			Unidade de decisão
+				Algoritmo
+		ENIAC
+			Formato em U
+			Memórias gigantescas
+			Necessitava de mais de 18 mil válvulas
+			Considerado o primeiro computador, pois é programável
+		EDVAC
+			Versão melhorada do ENICAC
+			Programa armazenado
+		COLOSSUS
+			Computador programável britânico
+			Conseguia processar 25 mil caracteres por segundo
+	Era dos computadores pessoais
+		ALTAIR 8800
+			Primeiro computador pessoal
+			Utilizava chipset Intel 8080
+			Criado em 1975
+		Criação da linguagem Basic
+			Criada por Bill Gates e Paul Allen
+				Fundadores da Microsoft
+		Apple II
+			Criado em 1976
+			Interface amigável, com teclado, display e entrada para disquetes
+		IBM-PC
+			Criado em 1981
+			Sucesso de vendas
+			Ideia de arquitetura aberta
+				Open Source
+	O que podemos aprender com esta história
+		Computadores demandam alto consumo de recursos
+		Computadores precisam de programas de processamento de dados
+			Assim se faz necessário a área de Programação
+		Podemos descobrir analogias, e determinar paralelismos com a computação moderna
+		Problemas antigos ainda podem ser atuais
